@@ -1,0 +1,172 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+html{
+margin:0px;
+
+}
+body {
+	font-family: 'Noto Sans TC', sans-serif;
+	margin: 0px;
+}
+a {
+	text-decoration: none;
+}
+article {
+	min-height: 2000px;
+}
+footer {
+	text-align: center;
+}
+#menu {
+	display: block;
+	flex-direction: column; /*column row*/
+	
+}
+.menu1 {
+	height: 54px;
+	background: pink;
+	display: none;
+	width:1920px;
+}
+
+.menu2 {
+	height: 32.38px;
+	background: cyan;
+	display:flex;
+	justify-content: center;
+	width:1920px;	
+}
+.menu3 {
+	height: 78.25px;
+	background: lightgreen;
+	display:flex;
+	justify-content: center; 
+	width:1920px;
+}
+.menu4 {
+	height: 33px;
+	background: #fffacd;
+	display:flex;
+	justify-content: center; 
+	width:1920px;
+}
+#leftmenu{
+	display: none;
+}
+#leftmenu1 {
+	position: absolute;
+	top: 164.63px;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	background: rgb(169, 169, 169, 0.5);
+}
+#leftmenu2 {
+	position: absolute;
+	background: #00BFFF;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 350px;
+	background: rgb(0, 191, 255);
+}
+#leftMenuTitle img{
+	position:relative;
+	top:100px;
+	left:100px;
+}
+#leftCloseBtn {	
+	position:relative;
+	top:100px;
+	left:50px;
+	width: 50px;
+	height: 50px;
+	font-size: 30px;
+}
+html.noscroll {
+    position: fixed; 
+    overflow:hidden;
+    width: 100%;
+}
+
+html.fixWindow {
+    position: fixed;
+    width: 100%;
+}
+#item2_1{
+	flex-grow: 0;
+	border:1px solid black;
+	
+}
+#item2_2{
+	flex-grow: 1;
+
+	border:1px solid black;
+	
+}
+#item4_1{
+	flex-grow: 1;
+	
+	border:1px solid black;
+	
+}
+#item2_3{
+	flex-grow: 0;
+	border:1px solid black;
+}
+#item3_1{
+	flex-grow: 0;
+border:1px solid black;
+}
+
+#item3_2{
+	flex-grow: 1;
+border:1px solid black;
+}
+
+#item3_3{
+	flex-grow: 1;
+border:1px solid black;
+}
+#item3_4{
+	flex-grow: 0;
+
+	border:1px solid black;
+	
+	
+}
+#item3_5{
+	flex-grow: 0;
+	border:1px solid black;
+}
+
+.menuSetting{
+display: flex;
+justify-content: center;
+align-items: center;  
+width:90%;
+}
+
+
+.menuSetting ul li{
+	display:inline;
+	font-size: 20px;	
+
+}
+#dy_bar {	
+	display: flex;
+	height:100%; 
+	top: 0px;
+	border:1px solid black;
+	justify-content: center;
+    align-items: center;   
+}
+#dy_bar_btn{
+	background-color: #f8d03b;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #111111;
+    margin-left: 20px;
+    transition: background-color 0.4s, transform 0.4s;
+}
